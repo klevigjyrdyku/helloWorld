@@ -1,5 +1,4 @@
-x = 10-28
-
-print(abs(x))
+x = 10**3
+print(x)
 
 
