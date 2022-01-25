@@ -1,6 +1,3 @@
-prices = [10, 20, 30]
-
-totale = 0
-for price in prices:
-    totale += price
-print(f"Totale: {totale}")
+for x in range(4):
+    for y in range(10):
+        print(f'({x}, {y})')
