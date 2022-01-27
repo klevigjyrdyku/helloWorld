@@ -1,3 +1,3 @@
-numbers = [2, 5, 6, 8, 1, 7]
-numbers.append(25)
+numbers = [2, 5, 6, 8, 1, 2, 2, 7]
+numbers.sort()
 print(numbers)
