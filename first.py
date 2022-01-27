@@ -1,3 +1,4 @@
-numbers = [5, 2, 5, 2, 2]
-for x_count in numbers:
-    print('x' * x_count)
+names = ['jon', 'ben', 'afrim', 'sara', 'dea']
+names[0] = 'jo'
+names[3]= 'sar'
+print(names)
