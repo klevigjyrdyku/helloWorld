@@ -1,8 +1,13 @@
-counts =  'klevi gjyrdyku'
-uniques = []
-for str in counts:
-    if str not in uniques:
-        uniques.append(str)
-print(uniques)
-print(len(counts))
+phone = input("Phone: ")
+digits_mapping ={
+    "1": "One",
+    "2": "Two",
+    "3" : "Three",
+    "4" : "Four"
+}
+output = ""
+for ch in phone:
+    output = output + " " + digits_mapping.get(ch, "Error") + " "
 
+
+print(output)
