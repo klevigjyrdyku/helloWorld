@@ -1,7 +1,14 @@
-def greet_users():
-    print('Hi there')
-    print('How are you')
-print("start")
-greet_users()
-print("Finish")
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
 
+    def move(self):
+        print("move")
+
+    def draw(self):
+        print("draw")
+
+point = Point(10, 20)
+point.x = 10
+print(point.x)
