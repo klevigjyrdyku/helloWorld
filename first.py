@@ -1,14 +1,14 @@
-class Point:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
+def prime_checker(number):
+    is_prime = True
+    for i in range(2, number):
+        if number % 1 == 0:
+            is_prime = False
 
-    def move(self):
-        print("move")
+    if is_prime:
+        print("It's a prime number.")
+    else:
+        print("It's not a prime number.")
 
-    def draw(self):
-        print("draw")
 
-point = Point(10, 20)
-point.x = 10
-print(point.x)
+n = int(input("Check this number: "))
+prime_checker(number=n)
